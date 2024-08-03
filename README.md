@@ -38,3 +38,46 @@ Segui questi passaggi per configurare ed eseguire l'applicazione localmente.
    ```bash
    git clone https://github.com/gaetanobondi/SimControl.git
    cd SimControl
+2. Installa le dipendenze
+
+   ```bash
+   npm install
+   # oppure
+   yarn install
+
+### Punto 3
+
+```markdown
+3. Avvia l'applicazione
+
+   Per iOS:
+
+   ```bash
+   npx react-native run-ios
+npx react-native run-android
+
+### Utilizzo
+
+```markdown
+## Utilizzo
+
+Dopo aver avviato l'app, potrai esplorare i vari operatori telefonici e visualizzare i dettagli sui loro piani tariffari e la copertura di rete. L'app supporta la navigazione intuitiva e fornisce informazioni chiare e concise.
+## Contribuzione
+
+Le contribuzioni sono benvenute! Per favore, segui questi passi:
+
+1. Fork la repository.
+2. Crea un nuovo branch (`git checkout -b feature/NuovaFunzionalità`).
+3. Fai le modifiche necessarie e committale (`git commit -am 'Aggiungi nuova funzionalità'`).
+4. Push il branch (`git push origin feature/NuovaFunzionalità`).
+5. Apri una Pull Request.
+## Licenza
+
+Questo progetto è licenziato sotto la licenza MIT. Vedi il file [LICENSE](LICENSE) per i dettagli.
+## Contatti
+
+Se hai domande, apri un'issue o contattami direttamente via [email](mailto:bondi.gaetano@gmail.com).
+
+---
+
+Realizzato con ❤️ da [Gaetano Bondi](https://github.com/gaetanobondi)
