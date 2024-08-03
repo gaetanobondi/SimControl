@@ -49,13 +49,13 @@ Segui questi passaggi per configurare ed eseguire l'applicazione localmente.
 
    Per iOS:
 
-   ```bash
-   npx react-native run-ios
+      ```bash
+      npx react-native run-ios
 
    Per Android:
    
-   ```bash
-   npx react-native run-android
+      ```bash
+      npx react-native run-android
 
 ## Utilizzo
 
