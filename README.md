@@ -51,7 +51,11 @@ Segui questi passaggi per configurare ed eseguire l'applicazione localmente.
 
    ```bash
    npx react-native run-ios
-npx react-native run-android
+
+   Per Android:
+   
+   ```bash
+   npx react-native run-android
 
 ## Utilizzo
 
@@ -74,4 +78,4 @@ Se hai domande, apri un'issue o contattami direttamente via [email](mailto:bondi
 
 ---
 
-Realizzato con ❤️ da [Gaetano Bondi](https://github.com/gaetanobondi)
+Realizzato con ❤️ da [Gaetano Bondì](https://github.com/gaetanobondi)
