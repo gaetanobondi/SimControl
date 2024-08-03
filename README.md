@@ -45,7 +45,6 @@ Segui questi passaggi per configurare ed eseguire l'applicazione localmente.
    # oppure
    yarn install
 
-```markdown
 3. Avvia l'applicazione
 
    Per iOS:
@@ -54,9 +53,6 @@ Segui questi passaggi per configurare ed eseguire l'applicazione localmente.
    npx react-native run-ios
 npx react-native run-android
 
-### Utilizzo
-
-```markdown
 ## Utilizzo
 
 Dopo aver avviato l'app, potrai esplorare i vari operatori telefonici e visualizzare i dettagli sui loro piani tariffari e la copertura di rete. L'app supporta la navigazione intuitiva e fornisce informazioni chiare e concise.
