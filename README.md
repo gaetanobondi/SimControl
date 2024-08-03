@@ -45,8 +45,6 @@ Segui questi passaggi per configurare ed eseguire l'applicazione localmente.
    # oppure
    yarn install
 
-### Punto 3
-
 ```markdown
 3. Avvia l'applicazione
 
