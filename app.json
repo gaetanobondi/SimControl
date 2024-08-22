@@ -55,13 +55,13 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "6e569b66-4ba9-4f0c-85cb-35129ec2e9ed"
+        "projectId": ""
       }
     }
   },
   "react-native-google-mobile-ads": {
-    "android_app_id": "ca-app-pub-5508611296560733~2996324967",
-    "ios_app_id": "ca-app-pub-5508611296560733~4419317349",
+    "android_app_id": "",
+    "ios_app_id": "",
     "user_tracking_usage_description": "Questo identificatore verrà utilizzato per fornirti annunci personalizzati.",
     "sk_ad_network_items": [
       "cstr6suwn9.skadnetwork",
