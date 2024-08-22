@@ -38,7 +38,7 @@ const Dato = ({ data }) => {
             },
             value: {
                 ...fontStyles.caption1,
-                color: '#CF1B1F'
+                color: colors.red
             },
             totale: {
                 ...fontStyles.caption1,
@@ -71,7 +71,6 @@ const Dato = ({ data }) => {
     if(data.total) {
         maxValue = data.total.replace(/[^\d.]/g, '');
         currentValue = data.value.replace(/[^\d,]/g, '').replace(',', '.');
-        console.log(currentValue, maxValue)
         radius = 80;
         strokeWidth = 12;
         circleCircumference = 2 * Math.PI * radius;
@@ -106,7 +105,7 @@ const Dato = ({ data }) => {
                             cx="50%"
                             cy="50%"
                             r={radius}
-                            stroke="#CF1B1F"
+                            stroke={colors.red}
                             fill="transparent"
                             strokeWidth={strokeWidth}
                             strokeDasharray={circleCircumference}

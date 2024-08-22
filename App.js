@@ -1,8 +1,11 @@
 import Navigation from './navigations';
+import { AuthProvider } from './components/AuthContext';
 
 export default function App() {
   return (
-    <Navigation />
+    <AuthProvider>
+      <Navigation />
+    </AuthProvider>
   );
 }
 

@@ -1,0 +1,40 @@
+{
+  "cli": {
+    "version": ">= 7.5.0"
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "ios": {
+        "buildConfiguration": "Debug"
+      }
+    },
+    "development-simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "ANDROID_SDK_ROOT": "/Users/gaetano/Library/Android/sdk"
+      }
+    },
+    "production": {
+      "env": {
+        "ANDROID_SDK_ROOT": "/Users/gaetano/Library/Android/sdk"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
